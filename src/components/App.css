@@ -224,6 +224,7 @@
   width: inherit;
   height: inherit;
   box-shadow: 0 0 10px rgb(0, 0, 0);
+  opacity: 0.7;
 }
 
 .skillFaces>img {
@@ -232,27 +233,27 @@
 }
 
 .skillFaces-1 {
-  transform: translate3d(0, 0, 150px);
+  transform: translate3d(0, 0, 160px);
 }
 
 .skillFaces-2 {
-  transform: rotateY(180deg) translate3d(0, 0, 150px);
+  transform: rotateY(180deg) translate3d(0, 0, 160px);
 }
 
 .skillFaces-3 {
-  transform: rotateY(-90deg) translate3d(0, 0, 150px);
+  transform: rotateY(-90deg) translate3d(0, 0, 160px);
 }
 
 .skillFaces-4 {
-  transform: rotateY(90deg) translate3d(0, 0, 150px);
+  transform: rotateY(90deg) translate3d(0, 0, 160px);
 }
 
 .skillFaces-5 {
-  transform: rotateX(90deg) translate3d(0, 0, 150px);
+  transform: rotateX(90deg) translate3d(0, 0, 160px);
 }
 
 .skillFaces-6 {
-  transform: rotateX(-90deg) translate3d(0, 0, 150px);
+  transform: rotateX(-90deg) translate3d(0, 0, 160px);
 }
 
 @keyframes cubeRotation {
@@ -334,27 +335,27 @@
   }
 
   .skillFaces-1 {
-    transform: translate3d(0, 0, 110px);
+    transform: translate3d(0, 0, 120px);
   }
 
   .skillFaces-2 {
-    transform: rotateY(180deg) translate3d(0, 0, 110px);
+    transform: rotateY(180deg) translate3d(0, 0, 120px);
   }
 
   .skillFaces-3 {
-    transform: rotateY(-90deg) translate3d(0, 0, 110px);
+    transform: rotateY(-90deg) translate3d(0, 0, 120px);
   }
 
   .skillFaces-4 {
-    transform: rotateY(90deg) translate3d(0, 0, 110px);
+    transform: rotateY(90deg) translate3d(0, 0, 120px);
   }
 
   .skillFaces-5 {
-    transform: rotateX(90deg) translate3d(0, 0, 110px);
+    transform: rotateX(90deg) translate3d(0, 0, 120px);
   }
 
   .skillFaces-6 {
-    transform: rotateX(-90deg) translate3d(0, 0, 110px);
+    transform: rotateX(-90deg) translate3d(0, 0, 120px);
   }
 }
 
@@ -366,27 +367,27 @@
   }
 
   .skillFaces-1 {
-    transform: translate3d(0, 0, 80px);
+    transform: translate3d(0, 0, 90px);
   }
 
   .skillFaces-2 {
-    transform: rotateY(180deg) translate3d(0, 0, 80px);
+    transform: rotateY(180deg) translate3d(0, 0, 90px);
   }
 
   .skillFaces-3 {
-    transform: rotateY(-90deg) translate3d(0, 0, 80px);
+    transform: rotateY(-90deg) translate3d(0, 0, 90px);
   }
 
   .skillFaces-4 {
-    transform: rotateY(90deg) translate3d(0, 0, 80px);
+    transform: rotateY(90deg) translate3d(0, 0, 90px);
   }
 
   .skillFaces-5 {
-    transform: rotateX(90deg) translate3d(0, 0, 80px);
+    transform: rotateX(90deg) translate3d(0, 0, 90px);
   }
 
   .skillFaces-6 {
-    transform: rotateX(-90deg) translate3d(0, 0, 80px);
+    transform: rotateX(-90deg) translate3d(0, 0, 90px);
   }
 }
 

@@ -38,18 +38,18 @@ function Skill() {
             <img src="/img/mern1.jpg" alt="suneel" />
           </div>{" "}
           <div className="skillFaces skillFaces-4">
-            <img src="/img/npm.jpg" alt="suneel" />
+            <img src="/img/css.jpg" alt="suneel" />
           </div>{" "}
           <div className="skillFaces skillFaces-5">
             <img src="/img/1555172.jpg" alt="suneel" />
           </div>
           <div className="skillFaces skillFaces-6">
-            <img src="/img/mern3.jpg" alt="suneel" />
+            <img src="/img/code.jpg" alt="suneel" />
           </div>
         </div>
         <div className="cubeShadow bg-slate-800 "></div>
         <div
-          className="skillsIcons flex flex-col items-center bg-slate-700 py-4 px-4 shadow-lg border border-slate-600"
+          className="skillsIcons flex flex-col items-center bg-slate-900 py-4 px-4 shadow-lg border border-slate-800"
           ref={skillBox}
         >
           <SiHtml5 />

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import Nav from "./Nav";
-
+import { Helmet } from "react-helmet";
 function Contact() {
   // const dispatch = useDispatch();
   // const { message, error } = useSelector((state) => state.login);
@@ -47,6 +47,10 @@ function Contact() {
 
   return (
     <>
+      {" "}
+      <Helmet>
+        <title>Contact</title>
+      </Helmet>
       <Nav text="Contact me" />
       <div className="contact z-50 bg-[#011431] py-16 h-screen border-t border-dotted border-slate-700">
         <div className="md:w-[60%] rounded-lg w-[95%] mx-auto px-6 md:px-8 bg-[#011431] py-8 shadow-2xl border border-slate-800 contact-card">
@@ -80,7 +84,10 @@ function Contact() {
               value={msg}
               onChange={(e) => setMsg(e.target.value)}
             ></textarea>
-            <button className="btn w-full md:w-48 flex items-center justify-center" type="submit">
+            <button
+              className="btn w-full md:w-48 flex items-center justify-center"
+              type="submit"
+            >
               {loading === true ? (
                 <span class="ml-2 inline-flex rounded-md h-[23px]">
                   <svg
@@ -103,7 +110,6 @@ function Contact() {
                       d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 016.477 13H4.11c.29 1.172.846 2.24 1.623 3.085l1.292-.794zm9.166-.794c.777-.845 1.333-1.913 1.623-3.085H17.52a7.962 7.962 0 01-1.292 3.085l-1.292.794z"
                     ></path>
                   </svg>
-                
                 </span>
               ) : (
                 <> Send message</>

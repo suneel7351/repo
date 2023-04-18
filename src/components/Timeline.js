@@ -6,7 +6,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import FastfoodIcon from "@mui/icons-material/Fastfood";
+import { BsDot } from "react-icons/bs";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import HotelIcon from "@mui/icons-material/Hotel";
 import RepeatIcon from "@mui/icons-material/Repeat";
@@ -25,20 +25,20 @@ export default function CustomizedTimeline() {
               variant="body2"
               color="text.secondary"
             >
-              9:30 am
+              <h1 className="text-xl">2020 - present</h1>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineConnector />
-              <TimelineDot>
-                <FastfoodIcon />
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+              <TimelineDot color="primary">
+                <BsDot />
               </TimelineDot>
-              <TimelineConnector />
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6" component="span">
-                Eat
-              </Typography>
-              <Typography>Because you need strength</Typography>
+              <h1 className="text-2xl">B.Tech</h1>
+              <h1 className="text-xl">
+                Pursuing B.Tech With Information Technology
+              </h1>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -47,50 +47,67 @@ export default function CustomizedTimeline() {
               variant="body2"
               color="text.secondary"
             >
-              10:00 am
+              {" "}
+              <h1 className="text-xl"> may 2022 - aug 2022</h1>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineConnector />
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
               <TimelineDot color="primary">
-                <LaptopMacIcon />
-              </TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6" component="span">
-                Code
-              </Typography>
-              <Typography>Because it&apos;s awesome!</Typography>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineConnector />
-              <TimelineDot color="primary" variant="outlined">
-                <HotelIcon />
+                <BsDot />
               </TimelineDot>
               <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <Typography variant="h6" component="span">
-                Sleep
+                Frontend Development
               </Typography>
-              <Typography>Because you need rest</Typography>
+              <Typography>HTML,CSS,React</Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0", color: "#fff" }}
+              variant="body2"
+              color="text.secondary"
+            >
+              <h1 className="text-xl">sep 2022 - Jan 2023</h1>
+            </TimelineOppositeContent>
+
             <TimelineSeparator>
               <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-              <TimelineDot color="secondary">
-                <RepeatIcon />
+              <TimelineDot color="primary">
+                <BsDot />
               </TimelineDot>
-              <TimelineConnector />
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <Typography variant="h6" component="span">
-                Repeat
+                Backend Development
               </Typography>
-              <Typography>Because this is the life you love!</Typography>
+              <Typography>NodeJs,Express,MongoDB</Typography>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0", color: "#fff" }}
+              variant="body2"
+              color="text.secondary"
+            >
+              {" "}
+              <h1 className="text-xl"> Feb 2023 - Mar 2023</h1>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+              <TimelineDot color="primary">
+                <BsDot />
+              </TimelineDot>
+              <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <Typography variant="h6" component="span">
+                Project-1
+              </Typography>
+              <Typography>Code with John</Typography>
             </TimelineContent>
           </TimelineItem>
         </Timeline>

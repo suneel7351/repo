@@ -1,9 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
-
+import { Helmet } from "react-helmet";
 function About() {
   return (
     <>
+      {" "}
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <Nav text="About me" />
       <div className="about border-t border-dotted border-slate-700 bg-[#011431] text-slate-200 py-16 border-slate-800 border-b shadow-lg">
         <div className="about-card bg-[#001634] w-[95%] md:w-[70%] shadow-lg border border-slate-800 py-8 md:px-8 px-4 flex flex-col md:flex-row justify-center gap-8">

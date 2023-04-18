@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "./App.css";
 import Nav from "./Nav";
+import { Helmet } from "react-helmet";
 function Project() {
   const data = [
     {
@@ -36,9 +37,12 @@ function Project() {
     },
   ];
 
-
   return (
     <>
+      {" "}
+      <Helmet>
+        <title>Projects</title>
+      </Helmet>
       <Nav text="Projects" />
       <div className=" bg-[#011431] project border-t border-dotted border-slate-700 project-home p-8  ">
         <h1 className="text-center  text-5xl md:text-7xl text-slate-200 mt-8 mb-16">
