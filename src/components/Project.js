@@ -6,9 +6,9 @@ import { Helmet } from "react-helmet";
 function Project() {
   const data = [
     {
-      img: "/img/social.png",
-      github: "https://github.com/suneel7351/full-stack-mern-app",
-      live: "https://socail-media-app.herokuapp.com/",
+      img: "/img/ss.png",
+      github: "https://github.com/suneel7351/course-client",
+      live: "https://codewithjohn-two.vercel.app/",
     },
     {
       img: "/img/gym.png",
