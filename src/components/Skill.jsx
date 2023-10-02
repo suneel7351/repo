@@ -75,7 +75,7 @@ function Skill({ skills }) {
           skills?.map((item, index) => {
             return <div className={`cursor-pointer skillFaces bg-gray-200 skillFaces-${index + 1} flex gap-2 flex-col px-3 py-2`} >
               <h2 className="text-2xl font-bold mb-2 text-black">{item?.title}</h2>
-              <p className="text-black text-gray-200">{item?.description}</p>
+              <p className="text-black">{item?.description}</p>
               <div className="progress-bar w-full h-4 bg-gray-300 rounded-md relative">
                 <div className="progress-bar-fill h-full bg-blue-500 rounded-md animate-pulse" style={{ width: `${item?.progress}%` }}>
                   <span className="absolute progress-text text-center text-white text-xs absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">{item?.progress}%</span>
